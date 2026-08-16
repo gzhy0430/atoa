@@ -9,7 +9,7 @@ import java.util.Map;
 
 @Slf4j
 public class HttpTest {
-//    curl -H "Content-Type: application/json" -H "X-SYS-ID: xxx" -X POST -d '{"sysCode": "xxx", "metaData": {"dbName": "NewDataBase","dbType": "mysql","tableChineseName": "门表","tableLevel": "1","tableName": "door","tableTypeCode": "A.1-1-2-2-1", "data": ["{\"da\":\"abcval\"}"], "fieldList": [{"fieldChineseName": "da","fieldElement": "da","fieldLevel": "4","fieldName": "da","fieldTypeCode": "A.1-1-2-2-11"}]}}' "http://xxx"
+//    curl -H "Content-Type: application/json" -H "X-SYS-ID: xxx" -X POST -d '{"sysCode": "xxx", "metaData": {"dbName": "NewDataBase","dbType": "mysql","tableChineseName": "门表","tableLevel": "1","tableName": "door","tableTypeCode": "AASSDDFFGGHH", "data": ["{\"da\":\"abcval\"}"], "fieldList": [{"fieldChineseName": "da","fieldElement": "da","fieldLevel": "4","fieldName": "da","fieldTypeCode": "A.1-1-2-2-11"}]}}' "http://xxx"
     public static void main(String[] args) {
         String url = "url";
         Map<String, String> headers = new HashMap<>();
